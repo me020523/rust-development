@@ -33,6 +33,12 @@ description: rust编程语言中的关键字
 | self | 指当前module或者方法的类型实例 |
 | super | 父module |
 
+## 控制结构
+
+| 关键字 | 作用 |
+| :--- | :--- |
+| match | 模式匹配 |
+
 ## 功能
 
 | 关键字 | 作用 |
