@@ -6,5 +6,6 @@
 
 * [关键字](rust-yu-yan/guan-jian-zi.md)
 * [模式匹配](rust-yu-yan/mo-shi-pi-pei.md)
+* [内置类型](rust-yu-yan/nei-zhi-lei-xing.md)
 * [常用数据结构](rust-yu-yan/chang-yong-shu-ju-jie-gou.md)
 
