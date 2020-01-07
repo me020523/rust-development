@@ -2,7 +2,7 @@
 description: Rust标准库提供的常用数据结构
 ---
 
-# 常用数据结构
+# 标准库-Collections
 
 ## Vector
 
