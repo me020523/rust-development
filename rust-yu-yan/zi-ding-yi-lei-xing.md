@@ -66,3 +66,12 @@ let black = Color(0, 0, 0);
 let origin = Point(0, 0, 0)
 ```
 
+### 空结构体
+
+定义不包含任何成员的空结构体
+
+```rust
+struct Empty{}
+struct Empty()
+```
+
