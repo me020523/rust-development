@@ -71,6 +71,7 @@ let origin = Point(0, 0, 0)
 定义不包含任何成员的空结构体
 
 ```rust
+struct Empty
 struct Empty{}
 struct Empty()
 ```
