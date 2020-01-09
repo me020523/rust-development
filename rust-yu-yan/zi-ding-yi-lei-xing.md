@@ -75,3 +75,27 @@ struct Empty{}
 struct Empty()
 ```
 
+## 枚举\(enum\)
+
+### 定义
+
+关键字: `enum`
+
+```rust
+enum IpAddrKind { 
+	V4, 
+	V6, 
+}
+```
+
+### 带参数枚举类型
+
+```rust
+enum Message { 
+	Quit, 
+	Move { x: i32, y: i32 }, //匿名struct参数
+	Write(String), //一个string参数
+	ChangeColor(i32, i32, i32),  //三个i32参数
+}
+```
+
