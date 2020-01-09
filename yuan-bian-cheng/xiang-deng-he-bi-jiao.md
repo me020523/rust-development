@@ -14,6 +14,7 @@ description: 重载(不)相等、比较运算符
 ## 比较
 
 * `PartialOrd`
+* `Ord`
 
 `PartialOrd`实现该Trait可以重载: `>`,`>=`, `<`, `<=`运算符。
 
