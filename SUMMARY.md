@@ -12,3 +12,7 @@
 * [面向对象编程](rust-yu-yan/mian-xiang-dui-xiang-bian-cheng.md)
 * [标准库-Collections](rust-yu-yan/chang-yong-shu-ju-jie-gou.md)
 
+## 元编程
+
+* [相等和比较](yuan-bian-cheng/xiang-deng-he-bi-jiao.md)
+
