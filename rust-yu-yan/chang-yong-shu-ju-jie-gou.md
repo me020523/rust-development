@@ -1,38 +1,35 @@
 ---
-description: Rust标准库提供的常用数据结构
+description: 'Rust标准库提供的常用数据结构(https://doc.rust-lang.org/std/collections/index.html)'
 ---
 
-# 常用数据结构
+# 标准库-Collections
 
-## Vector
+## Sequence
 
-### 创建
+* Vec
+* VecDeque
+* LinkedList
+
+### Vector
+
+#### 创建
 
 ```rust
 let mut v = vec![1,2,3,4]; //利用vec!宏构造
 let mut v2:Vec<i32> = Vec::new(); //利用new方法
 ```
 
-### 访问
+## Map
 
-```rust
-let t = v[0];  //当索引不存在时引发panic
-let r = v.get(1);  //返回Option枚举; 当索引不存在时不引发panic
-```
+* HashMap
+* BtreeMap
 
-### 修改
+## Set
 
-```rust
-v.push(24);  //追加
-v[1] = 1000; //更新
-v.pop(); //删除
-```
+* HashSet
+* BtreeSet
 
-### 迭代
+## Misc
 
-```rust
-for i in v {
-    print!(" {} ", i)
-}
-```
+* BinaryHeap
 
